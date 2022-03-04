@@ -91,6 +91,12 @@ nav.navbar-tranparente {
   padding-bottom: 20px;
 }
 
+#recursos {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
 .albuns {
   padding: 10px 0px 0px 0px;
 }
@@ -119,10 +125,14 @@ h3 {
 }
 
 #servicos h2,
-h3 {
+#servicos h3 {
   color: #7c25f8;
 }
 
 p {
   text-align: justify;
+}
+
+#recursos h3 {
+  color: #9bf0e1;
 }
