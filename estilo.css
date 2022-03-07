@@ -10,6 +10,7 @@ body {
     linear-gradient(50deg, #ff4169, #7c26f8);
   background-attachment: fixed; /*fixando o fundo*/
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
 /*--Barra navegação--*/
@@ -44,7 +45,6 @@ nav.navbar-tranparente {
 /*--Imagem de capa--*/
 
 .capa {
-  border: 1px solid red;
   display: table;
   width: 100%;
 }
@@ -61,7 +61,7 @@ nav.navbar-tranparente {
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
   padding: 10px 35px;
-  margin: 0px 15px;
+  margin: 10px 15px;
   text-transform: uppercase;
   transition: background 0.4s, color 0.4s; /*deixar mais lenta a trasição de cor*/
   font-weight: bolder;
@@ -85,10 +85,62 @@ nav.navbar-tranparente {
   color: black;
 }
 
+/*--Servicos--*/
+#servicos {
+  background: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#recursos {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.albuns {
+  padding: 10px 0px 0px 0px;
+}
+
+img {
+  padding: 0px 0px 10px 0px;
+}
+
+.rotacionar {
+  transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  padding-left: 80px;
+}
+
 /*--Tipografia--*/
 h1 {
   font-size: 100px;
   font-weight: 900;
   letter-spacing: -0.05em; /*deixando a letra mias proxima da outra*/
   margin-bottom: 50px;
+}
+h2 {
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+h3 {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+#servicos h2,
+#servicos h3 {
+  color: #7c25f8;
+}
+
+p {
+  text-align: justify;
+}
+
+#recursos h3 {
+  color: #9bf0e1;
 }
